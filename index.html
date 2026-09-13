@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Minimalis Hitam Putih | Web Developer & Designer</title>
+  <meta name="description" content="Website portofolio profesional bertemakan hitam putih minimalis dengan fitur mode gelap dan terang, auto scroll navigation tab, riwayat pendidikan, keahlian, dan pameran hasil projek.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Grid Texture Overlay -->
+  <div class="bg-grid-overlay"></div>
+
+  <!-- HEADER / TOP NAVIGATION BAR -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <!-- Logo -->
+      <a href="#home" class="logo">
+        <span></span> PORTFOLIO.
+      </a>
+
+      <!-- Navigation Tabs (Auto-Scroll & Active Highlighting) -->
+      <nav class="nav-tabs" id="navTabsMenu">
+        <a href="#home" class="nav-tab active">Home</a>
+        <a href="#about" class="nav-tab">Tentang</a>
+        <a href="#timeline" class="nav-tab">Pendidikan</a>
+        <a href="#skills" class="nav-tab">Keahlian</a>
+        <a href="#projects" class="nav-tab">Projek</a>
+        <a href="#contact" class="nav-tab">Kontak</a>
+      </nav>
+
+      <!-- Right Header Actions (Theme Toggle & CV Button) -->
+      <div class="nav-actions">
+        <!-- Dark/Light Theme Switcher Toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Ganti Mode Gelap / Terang">
+          <span id="themeIcon">☀️</span>
+        </button>
+
+
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu Navigation">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- HERO SECTION (HOME) -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <!-- Hero Left Text Content -->
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span> Open to New Projects & Hire
+          </div>
+          
+          <h1 class="hero-title">
+            Halo, Saya <br>
+            <span class="highlight">Muhammad Azza Najahan</span>
+          </h1>
+
+          <div class="typewriter-wrapper">
+            <span>Seorang</span>
+            <span class="typewriter">Pelajar di SMK TELKOM PURWOKERTO</span>
+          </div>
+
+          <p class="hero-description">
+            Saya adalah seorang pelajar jurusan Rekayasa Perangkat Lunak di SMK Telkom Purwokerto yang memiliki minat besar dalam dunia pemrograman dan pengembangan web.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              Lihat Hasil Projek ➔
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Hubungi Saya
+            </a>
+          </div>
+
+          <!-- Hero Quick Stats -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">1+</span>
+              <span class="stat-label">Tahun Belajar</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Projek Sekolah</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">RPL</span>
+              <span class="stat-label">Jurusan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Personal Photo Showcase -->
+        <div class="hero-image-wrapper">
+          <div class="hero-image-card">
+            <img src="./WhatsApp Image 2026-09-09 at 21.51.08.jpeg" alt="Foto Muhammad Azza Najahan" width="380" height="475" loading="eager">
+            
+            <div class="hero-image-badge">
+              <div class="badge-avatar-info">
+                <p>Muhammad Azza Najahan</p>
+                <span>Based in Purwokerto, Indonesia 🇮🇩</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">01. BIOGRAFI SAYA</span>
+          <h2 class="section-title">Tentang Saya</h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Bio -->
+          <div class="about-text">
+            <p>
+              Halo! Saya Muhammad Azza Najahan, seorang pelajar di SMK Telkom Purwokerto dengan penjurusan Rekayasa Perangkat Lunak (RPL). Saya sangat antusias mempelajari teknologi baru, khususnya dalam pengembangan website modern.
+            </p>
+            <p>
+              Dengan fokus pada pembelajaran yang berkesinambungan, saya selalu berusaha mengasah logika pemrograman dan menciptakan desain antarmuka yang menarik serta mudah digunakan.
+            </p>
+
+            <div class="about-highlight-box">
+              "Desain yang baik bukan hanya tentang bagaimana sesuatu terlihat, melainkan bagaimana sesuatu bekerja secara harmonis."
+            </div>
+          </div>
+
+          <!-- Personal Info Cards Grid -->
+          <div class="info-cards-grid">
+            <div class="info-card">
+              <div class="info-card-icon">🎓</div>
+              <div class="info-card-title">Pendidikan</div>
+              <div class="info-card-value">SMK Telkom Purwokerto</div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon">💻</div>
+              <div class="info-card-title">Spesialisasi</div>
+              <div class="info-card-value">Rekayasa Perangkat Lunak</div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon">📍</div>
+              <div class="info-card-title">Lokasi</div>
+              <div class="info-card-value">Purwokerto, Indonesia</div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon">✉️</div>
+              <div class="info-card-title">Email Kontak</div>
+              <div class="info-card-value">541251190@student.smktelkom-pwt.sch.id</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EDUCATION & EXPERIENCE SECTION -->
+    <section id="timeline" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header" style="align-items: center; text-align: center;">
+          <span class="section-subtitle">02. JEJAK AKADEMIK</span>
+          <h2 class="section-title">Riwayat Pendidikan</h2>
+        </div>
+
+        <!-- Timeline Container -->
+        <div class="timeline">
+          <!-- Item 1: Pendidikan (SMK) -->
+          <div class="timeline-item left" data-category="pendidikan">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-year">2025 - 2028</div>
+              <h3 class="timeline-role">SMK Telkom Purwokerto</h3>
+              <div class="timeline-org">Pelajar SMK</div>
+              <p class="timeline-desc">
+                Saat ini sedang menempuh pendidikan di SMK Telkom Purwokerto, mendalami bidang teknologi informasi, pemrograman, dan pengembangan perangkat lunak.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: Pendidikan (SMP) -->
+          <div class="timeline-item right" data-category="pendidikan">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-year">2022 - 2025</div>
+              <h3 class="timeline-role">SMP Negeri 1 Purbalingga</h3>
+              <div class="timeline-org">Pelajar SMP</div>
+              <p class="timeline-desc">
+                Menyelesaikan pendidikan menengah pertama dengan minat besar pada dunia komputer dan teknologi digital.
+              </p>
+            </div>
+          </div>
+          <!-- Item 3: Pendidikan (SD Lanjutan) -->
+          <div class="timeline-item left" data-category="pendidikan">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-year">2016 - 2022</div>
+              <h3 class="timeline-role">MI Istiqomah Sambas Purbalingga</h3>
+              <div class="timeline-org">Pelajar SD</div>
+              <p class="timeline-desc">
+                Menyelesaikan pendidikan dasar dengan penuh semangat belajar.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: Pendidikan (SD Awal) -->
+          <div class="timeline-item right" data-category="pendidikan">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-year">2015 - 2016</div>
+              <h3 class="timeline-role">TK Kemala Bhayangkari Purbalingga</h3>
+              <div class="timeline-org">Pelajar TK</div>
+              <p class="timeline-desc">
+                Memulai pendidikan dasar dan membangun fondasi pengetahuan awal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">03. KEAHLIAN TEKNIS</span>
+          <h2 class="section-title">Keahlian & Penguasaan Teknologi</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Pemrograman Web -->
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">💻 Pemrograman Web</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>Dasar HTML & CSS</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="80%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>JavaScript Pemula</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="60%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>PHP Dasar & MySQL</span>
+                  <span>55%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="55%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Bootstrap</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">XAMPP</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Desain & Multimedia -->
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">🎨 Desain & UI/UX</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>Desain Grafis (Canva)</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="85%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>Figma (Dasar)</span>
+                  <span>65%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="65%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>Video Editing (CapCut/Premiere)</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="70%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Wireframing</span>
+              <span class="skill-tag">Prototyping</span>
+              <span class="skill-tag">Layouting</span>
+            </div>
+          </div>
+
+          <!-- Card 3: IT & Tools Dasar -->
+          <div class="skill-category-card">
+            <h3 class="skill-cat-title">🔧 IT & Tools Lainnya</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>Microsoft Office</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="85%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>Git & GitHub Dasar</span>
+                  <span>50%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="50%"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-item-info">
+                  <span>Troubleshooting Hardware Dasar</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="skill-progress-fill" data-percentage="60%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Windows OS</span>
+              <span class="skill-tag">Instalasi Software</span>
+              <span class="skill-tag">Kerja Tim</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS SECTION (HASIL PROJEK) -->
+    <section id="projects" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">04. PORTFOLIO KARYA</span>
+          <h2 class="section-title">Hasil Projek Terbaik</h2>
+        </div>
+
+        <!-- Filter Category Tabs -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">Semua Projek</button>
+          <button class="filter-btn" data-filter="webapp">Web Application</button>
+          <button class="filter-btn" data-filter="mobile">Mobile App UI</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+          <button class="filter-btn" data-filter="ai">AI Platform</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project Card 1 -->
+          <div class="project-card" data-category="webapp" data-full-desc="Website untuk mengecek lokasi pengguna secara pribadi">
+            <div class="project-thumb">
+              <img src="./Screenshot (305).png" alt="web" loading="lazy">
+              <div class="project-overlay">
+                <span class="btn btn-primary btn-sm">Lihat Detail ➔</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Website</span>
+              <h3 class="project-title">CheckMyLocation</h3>
+              <p class="project-desc">Website untuk mengecek lokasi pengguna secara pribadi</p>
+              <div class="project-tech">
+                <span>JAVASCRIPT</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card" data-category="mobile" data-full-desc="Aplikasi mobile finansial pribadi dengan desain hitam putih kontras tinggi. Dilengkapi dengan pemantau transaksi otomatis, kalkulator investasi, dan otentikasi biometrik.">
+            <div class="project-thumb">
+              <img src="./Screenshot (306).png" alt="Monochrome Mobile App UI" loading="lazy">
+              <div class="project-overlay">
+                <span class="btn btn-primary btn-sm">Lihat Detail ➔</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">ONLINE STORE</span>
+              <h3 class="project-title">CHROCLOCK</h3>
+              <p class="project-desc">Website untuk pembelian jam mewah dengan all payment</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+                <span>PHP</span>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">06. MARI BEKERJA SAMA</span>
+          <h2 class="section-title">Hubungi Saya</h2>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Left Information -->
+          <div class="contact-info">
+            <p style="font-size: 1.1rem; color: var(--text-secondary);">
+              Tertarik membuat projek baru, konsultasi desain, atau ingin berdiskusi? Jangan ragu untuk mengirimkan pesan. Saya siap membantu merealisasikan ide Anda.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-text">
+                  <label>Email Utama</label>
+                  <p>541251190@student.smktelkom-pwt.sch.id</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div class="contact-text">
+                  <label>Telepon / WhatsApp</label>
+                  <p>+62 815-1732-8776</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                  <label>Lokasi Domisili</label>
+                  <p>Purwokerto, Indonesia</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Buttons -->
+            <div>
+              <label style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted);">Jaringan Sosial</label>
+              <div class="social-links">
+                <a href="#" class="btn-icon" aria-label="GitHub">💻</a>
+                <a href="#" class="btn-icon" aria-label="LinkedIn">🔗</a>
+                <a href="#" class="btn-icon" aria-label="Instagram">📸</a>
+                <a href="#" class="btn-icon" aria-label="X/Twitter">🐦</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Right Form -->
+          <div class="contact-form-wrapper">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="contactName">Nama Lengkap *</label>
+                <input type="text" id="contactName" class="form-control" placeholder="Masukkan nama Anda..." required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Alamat Email *</label>
+                <input type="email" id="contactEmail" class="form-control" placeholder="nama@email.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subjek Pesan</label>
+                <input type="text" id="contactSubject" class="form-control" placeholder="Contoh: Penawaran Projek Web App">
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Isi Pesan *</label>
+                <textarea id="contactMessage" class="form-control" placeholder="Tuliskan detail ide atau pertanyaan Anda di sini..." required></textarea>
+              </div>
+
+              <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%;">
+                Kirim Pesan Sekarang ➔
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">
+        <span></span> PORTFOLIO.
+      </div>
+      <div class="footer-text">
+        © 2026 Muhammad Azza Najahan. All rights reserved. Built with Pure Monochrome Design.
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;">
+        <span>🕒 Waktu Lokal:</span>
+        <strong id="footerClock" style="color: var(--text-primary);">--:--:--</strong>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- PROJECT DETAIL MODAL DIALOG -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-container">
+      <button class="modal-close" aria-label="Tutup Modal">&times;</button>
+      
+      <span class="project-category" id="modalProjectCategory">Web Application</span>
+      <h2 id="modalProjectTitle" style="font-size: 1.8rem; margin: 0.3rem 0 1rem 0;">Judul Projek</h2>
+      
+      <div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: var(--radius-md); margin-bottom: 1rem; border: 1px solid var(--border-color);">
+        <img id="modalProjectImage" src="" alt="Detail Projek" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+
+      <div class="modal-body">
+        <p id="modalProjectDesc" style="color: var(--text-secondary); line-height: 1.6;"></p>
+        
+        <div>
+          <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Teknologi Yang Digunakan:</h4>
+          <div id="modalProjectTech" style="display: flex; gap: 0.5rem; flex-wrap: wrap;"></div>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+          <a href="#" class="btn btn-primary btn-sm" onclick="showToast('Membuka Simulator Live Demo...', 'info'); return false;">
+            Live Demo ➔
+          </a>
+          <a href="#" class="btn btn-secondary btn-sm" onclick="showToast('Membuka GitHub Repository Simulator...', 'info'); return false;">
+            Source Code (GitHub)
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
